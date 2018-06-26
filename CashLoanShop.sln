@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLoanShop.WebApp", "CashLoanShop\CashLoanShop.WebApp.csproj", "{C35BB5D6-E155-4C1D-9C88-C5590985BC05}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLoanShop.DataAccess", "CashLoanShop.DataAccess\CashLoanShop.DataAccess.csproj", "{DCB50F6A-094B-4A23-A73C-898A06534962}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLoanShop.Model", "CashLoanShop.Model\CashLoanShop.Model.csproj", "{D0A6A448-1660-46AC-A4F2-F2A6798B4F52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{B614B53D-7B03-4C4E-AE6E-E4064C49D72D}"
+	ProjectSection(SolutionItems) = preProject
+		..\cash4LoanDBMigrated.bak = ..\cash4LoanDBMigrated.bak
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +41,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {248CB269-5CA9-4CEA-AA8B-F07DD99A76D4}
 	EndGlobalSection
 EndGlobal
